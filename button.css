@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+
+}
+
+body{
+    
+    height: 100vh;
+    background: #e4d6c5;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #1e424d;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    gap: 15px;
+}
+
+button{
+    width: 10%;
+    height: 8%;
+    border-radius: 10px;
+    position: relative;
+    background: transparent;
+    color: aliceblue;
+    overflow: hidden;
+    
+    
+}
+
+#blueGreen::after{
+    content: '';
+    background: linear-gradient(135deg,#1e424d, #687d31 );
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: initial;
+    transition: 0.1s;
+    z-index: -1;
+}
+
+#blueGreen:hover::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+
+}
+
+#pinkOrange::after{
+    content: '';
+    background: linear-gradient(135deg,#d86487, #f39048 );
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: initial;
+    transition: 0.1s;
+    z-index: -1;
+}
+
+#pinkOrange:hover::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+
+}
+
+#purpYell::after{
+    content: '';
+    background: linear-gradient(135deg,#814881, #f9ce75 );
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: initial;
+    transition: 0.1s;
+    z-index: -1;
+}
+
+#purpYell:hover::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+
+}
+
+#oliveLant::after{
+    content: '';
+    background: linear-gradient(135deg,#585123, #eec170 );
+    width: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: initial;
+    transition: 0.1s;
+    z-index: -1;
+}
+
+#oliveLant:hover::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+
+}
+
+
